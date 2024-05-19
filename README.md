@@ -1,1 +1,1 @@
-# gc-sam
+# Germinal Center Segment Anything Model (GC-SAM)
