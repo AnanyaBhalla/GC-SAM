@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+segment-anything = {git = "git+https://github.com/facebookresearch/segment-anything.git"}
+datasets = "*"
+monai = "*"
+patchify = "*"
+transformers = {git = "git+https://github.com/huggingface/transformers.git"}
+matplotlib = "*"
+tifffile = "*"
+scipy = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
